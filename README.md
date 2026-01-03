@@ -26,11 +26,11 @@
 ## 📋 Requirements:-
 This script requires the following packages:
 
--**figlet** - ASCII art text generator
--**toilet** - Enhanced ASCII art with filters
--**lolcat** - Rainbow colorization
--**cowsay** - Configurable speaking cow
--**fortune** - Random quote generator
--**boxes** - Text mode box and comment drawing
--**pv** - Pipe viewer for progress effects
--**cmatrix**-  the iconic "digital rain" effect from The Matrix movies in your terminal
+- **figlet** - ASCII art text generator
+- **toilet** - Enhanced ASCII art with filters
+- **lolcat** - Rainbow colorization
+- **cowsay** - Configurable speaking cow
+- **fortune** - Random quote generator
+- **boxes** - Text mode box and comment drawing
+- **pv** - Pipe viewer for progress effects
+- **cmatrix**-  the iconic "digital rain" effect from The Matrix movies in your  terminal
