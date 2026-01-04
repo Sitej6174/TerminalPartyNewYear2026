@@ -35,4 +35,26 @@ This script requires the following packages:
 - **pv** - Pipe viewer for progress effects
 - **cmatrix**-  the iconic "digital rain" effect from The Matrix movies in your  terminal
   
- # 👨‍💻 Installation:-
+ ## 🚀 Installation:-
+🐧Linux(Debian/kali/ubuntu/mint) • Use WSL if you are in Windows OS
+```bash
+sudo apt update && sudo apt install -y figlet toilet lolcat cowsay fortune boxes pv cmatrix git && git clone https://github.com/VritraSecz/Newyear2026-Terminal-Party2026.git 
+```
+Navigate to directory, Make executable & Run the party!
+```bash
+cd Newyear2026-Terminal-Party2026 && chmod +x party2026.sh && bash party2026.sh
+```
+🐧 Linux (Fedora/RHEL/CentOS)
+```bash
+# Install dependencies
+sudo dnf install -y figlet toilet lolcat cowsay fortune-mod boxes pv cmatrix # Clone the repository git clone https://github.com/YOUR-USERNAME/Newyear2026-Terminal-Party2026.git # Navigate to directory cd Newyear2026-Terminal-Party2026 # Make script executable chmod +x party2026.sh # Run the party! ./party2026.sh
+```
+🐧 Linux (Arch/BlavkArch/Manjaro)
+```bash
+# Install dependencies
+sudo pacman -S figlet cowsay fortune-mod boxes pv cmatrix # Install from AUR yay -S lolcat toilet # Clone the repository git clone https://github.com/YOUR-USERNAME/Newyear2026-Terminal-Party2026.git # Navigate to directory cd Newyear2026-Terminal-Party2026 # Make script executable chmod +x party2026.sh # Run the party! ./party2026.sh
+```
+📱 Termux (Android)
+```bash
+# Update packages pkg update && pkg upgrade # Install dependencies pkg install -y git figlet toilet ruby cowsay fortune boxes pv # Install lolcat via gem gem install lolcat # Clone the repository git clone https://github.com/YOUR-USERNAME/Newyear2026-Terminal-Party2026.git # Navigate to directory cd Newyear2026-Terminal-Party2026 # Make script executable chmod +x party2026.sh # Run the party! ./party2026.sh
+```
