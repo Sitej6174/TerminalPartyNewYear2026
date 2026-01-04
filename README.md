@@ -16,12 +16,12 @@
  ## Features • Installation • Usage • Screenshots • Contributing  
   ---
 ## ✨Features:-
-🌈 Rainbow Text Effects - Colorful lolcat animations
-🎨 ASCII Art Banners - Beautiful figlet & toilet typography
-🐮 Fortune Wisdom - Random quotes with cowsay
-📦 Decorative Boxes - Stylish bordered messages
-⚡ Smooth Animations - Progressive typing effects
-🎆 Multiple Styles - Various font and color combinations
+- 🌈 Rainbow Text Effects - Colorful lolcat animations
+- 🎨 ASCII Art Banners - Beautiful figlet & toilet typography
+- 🐮 Fortune Wisdom - Random quotes with cowsay
+- 📦 Decorative Boxes - Stylish bordered messages
+- ⚡ Smooth Animations - Progressive typing effects
+- 🎆 Multiple Styles - Various font and color combinations
 
 ## 📋 Requirements:-
 This script requires the following packages:
@@ -34,3 +34,4 @@ This script requires the following packages:
 - **boxes** - Text mode box and comment drawing
 - **pv** - Pipe viewer for progress effects
 - **cmatrix**-  the iconic "digital rain" effect from The Matrix movies in your  terminal
+- ### installation 
