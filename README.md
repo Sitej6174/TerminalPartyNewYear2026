@@ -2,18 +2,18 @@
 - 🎆 Terminal Party Script - Celebrate in Style! 🎆
  - A spectacular bash script to celebrate **Happy New Year 2026** with vibrant terminal animations!
   ## 📌 Repository Contents
-  | File Name                   | Description  |
-  |-----------------------------|--------------|
-  | `LICENSE`                   |              |
-  | `README.md`                 |              |
-  | `boom2026.sh`               |              |
-  | `celebration2026.sh`        |              |
-  | `newyear2026.sh`            |              |
-  | `party2026.sh`              |              |
-  | `terminal-party_2026.sh`    |              |
+  | File Name                   |                           Description                           |
+  |-----------------------------|-----------------------------------------------------------------|
+  | `LICENSE`                   |                                                                 |
+  | `README.md`                 |                                                                 |
+  | `boom2026.sh`               |                                                                 |
+  | `celebration2026.sh`        |                                                                 |
+  | `newyear2026.sh`            |                                                                 |
+  | `party2026.sh`              |                                                                 |
+  | `terminal-party_2026.sh`    |                                                                 |
   ---
   
- ## Features • Installation • Usage • Screenshots • Contributing  
+ ## • Features • Installation • Usage • Screenshots • Contributing  
   ---
 ## ✨Features:-
 - 🌈 Rainbow Text Effects - Colorful lolcat animations
@@ -34,4 +34,5 @@ This script requires the following packages:
 - **boxes** - Text mode box and comment drawing
 - **pv** - Pipe viewer for progress effects
 - **cmatrix**-  the iconic "digital rain" effect from The Matrix movies in your  terminal
-   ### 👨‍💻 Installation:-
+  
+ # 👨‍💻 Installation:-
