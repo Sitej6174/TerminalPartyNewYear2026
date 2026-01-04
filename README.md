@@ -34,4 +34,4 @@ This script requires the following packages:
 - **boxes** - Text mode box and comment drawing
 - **pv** - Pipe viewer for progress effects
 - **cmatrix**-  the iconic "digital rain" effect from The Matrix movies in your  terminal
-- ### installation 
+   ### 👨‍💻 Installation:-
