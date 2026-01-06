@@ -1,6 +1,4 @@
-# 🎉 NewYear2026-Terminal-Party2026
-
-<div align="center">
+# 🎉 Terminal Party New Year 2026
 
 ```
   _   _                __   __                 ____   ___ ____   __  
@@ -9,13 +7,18 @@
  | |\  |  __/\ V  V /    | |  __/ (_| | |     / __/| |_| / __/| (_) |
  |_| \_|\___| \_/\_/     |_|\___|\__,_|_|    |_____|\___/_____|\___|
                                                                       
-         🎆 Terminal Party Script - Celebrate in Style! 🎆
+         🎆 Terminal Party Scripts - Celebrate in Style! 🎆
 ```
 
 [![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)](https://www.gnu.org/software/bash/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
-[![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20macOS%20%7C%20Termux-blue?style=flat-square)](https://github.com/VritraSecz/Newyear2026-Terminal-Party2026)
-[![Maintained](https://img.shields.io/badge/Maintained-Yes-green?style=flat-square)](https://github.com/VritraSecz/Newyear2026-Terminal-Party2026)
+[![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20macOS%20%7C%20Termux%20%7C%20WSL-blue?style=flat-square)](https://github.com/Sitej6174/TerminalPartyNewYear2026)
+[![Maintained](https://img.shields.io/badge/Maintained-Yes-green?style=flat-square)](https://github.com/Sitej6174/TerminalPartyNewYear2026)
+
+
+A collection of spectacular bash celebration scripts featuring rainbow animations, ASCII art, terminal fireworks, and matrix effects to celebrate the New Year 2026! 🚀
+
+---
 
 **A spectacular bash celebration script featuring rainbow animations, ASCII art, and terminal fireworks! 🚀**
 
@@ -27,9 +30,9 @@
 
 ---
 
-</div>
 
 ## 📖 About
+
 
 > *"First, solve the problem. Then, write the code."* - John Johnson
 
@@ -40,6 +43,7 @@ Perfect for developers, Linux enthusiasts, and anyone who loves terminal aesthet
 > *"Any fool can write code that a computer can understand. Good programmers write code that humans can understand."* - Martin Fowler
 
 ---
+---
 
 ## ✨ Features
 
@@ -47,16 +51,18 @@ Perfect for developers, Linux enthusiasts, and anyone who loves terminal aesthet
 - 🎨 **ASCII Art Gallery** - Multiple font styles using figlet & toilet
 - 🐮 **Cowsay Wisdom** - Random fortune quotes with personality
 - 📦 **Decorative Borders** - Stylish boxes around messages
+- 🎭 **Matrix Effects** - Falling code animations with cmatrix
 - ⚡ **Typing Animations** - Progressive text reveal effects
-- 🎭 **Multiple Themes** - Various celebration styles
-- 🔧 **Customizable** - Easy to modify and extend
-- 📱 **Cross-Platform** - Works on Linux, macOS, Termux, and Windows (WSL)
+- 🎊 **Multiple Scripts** - Various celebration styles to choose from
+- 📱 **Cross-Platform** - Works on Linux, macOS, Termux, and WSL
 
 ---
 
-## 📋 Requirements
+## 📋 Dependencies
 
-```bash
+All required packages:
+
+```
 figlet    # ASCII art text generator
 toilet    # Advanced ASCII art with filters
 lolcat    # Rainbow colorization tool
@@ -64,227 +70,173 @@ cowsay    # Configurable speaking animals
 fortune   # Random quote generator
 boxes     # Text mode drawing tool
 pv        # Pipe viewer for progress effects
+cmatrix   # Matrix-style terminal animation
 ```
 
 ---
 
 ## 🚀 Installation
 
-### 📦 Quick Install (One-Liner)
+### Clone Repository
 
-> *"Code never lies, comments sometimes do."* - Ron Jeffries
-
-**Linux (Debian/Ubuntu):**
 ```bash
-sudo apt update && sudo apt install -y figlet toilet lolcat cowsay fortune boxes pv git && git clone https://github.com/VritraSecz/Newyear2026-Terminal-Party2026.git && cd Newyear2026-Terminal-Party2026 && chmod +x party2026.sh && ./party2026.sh
+git clone https://github.com/Sitej6174/TerminalPartyNewYear2026.git
+cd TerminalPartyNewYear2026
 ```
 
----
+### Install Dependencies
 
-### 🐧 Linux
-
-<details>
-<summary><b>Ubuntu / Debian / Linux Mint</b></summary>
-
+**Ubuntu / Debian / Linux Mint:**
 ```bash
-# Update package repositories
 sudo apt update
-
-# Install dependencies
-sudo apt install -y figlet toilet lolcat cowsay fortune boxes pv git
-
-# Clone the repository
-git clone https://github.com/VritraSecz/Newyear2026-Terminal-Party2026.git
-
-# Navigate to directory
-cd Newyear2026-Terminal-Party2026
-
-# Make executable
-chmod +x party2026.sh
-
-# Run the party!
-./party2026.sh
+sudo apt install -y figlet toilet lolcat cowsay fortune boxes pv cmatrix
 ```
-</details>
 
-<details>
-<summary><b>Fedora / RHEL / CentOS</b></summary>
-
+**Fedora / RHEL / CentOS:**
 ```bash
-# Install dependencies
-sudo dnf install -y figlet toilet lolcat cowsay fortune-mod boxes pv git
-
-# Clone repository
-git clone https://github.com/VritraSecz/Newyear2026-Terminal-Party2026.git
-
-# Enter directory
-cd Newyear2026-Terminal-Party2026
-
-# Make executable
-chmod +x party2026.sh
-
-# Launch!
-./party2026.sh
+sudo dnf install -y figlet toilet lolcat cowsay fortune-mod boxes pv cmatrix
 ```
-</details>
 
-<details>
-<summary><b>Arch Linux / Manjaro</b></summary>
-
+**Arch Linux / Manjaro:**
 ```bash
-# Install from official repos
-sudo pacman -S figlet cowsay fortune-mod boxes pv git
-
-# Install from AUR
+sudo pacman -S figlet cowsay fortune-mod boxes pv cmatrix
 yay -S lolcat toilet
-
-# Clone repository
-git clone https://github.com/VritraSecz/Newyear2026-Terminal-Party2026.git
-
-# Navigate
-cd Newyear2026-Terminal-Party2026
-
-# Make executable
-chmod +x party2026.sh
-
-# Run!
-./party2026.sh
 ```
-</details>
 
----
-
-### 📱 Termux (Android)
-
+**macOS (Homebrew):**
 ```bash
-# Update Termux packages
+brew install figlet toilet lolcat cowsay fortune boxes pv cmatrix
+```
+
+**Termux (Android):**
+```bash
 pkg update && pkg upgrade -y
-
-# Install dependencies
-pkg install -y git figlet toilet ruby cowsay fortune boxes pv
-
-# Install lolcat via Ruby gems
+pkg install -y git figlet toilet ruby cowsay fortune boxes pv cmatrix
 gem install lolcat
-
-# Clone repository
-git clone https://github.com/VritraSecz/Newyear2026-Terminal-Party2026.git
-
-# Navigate
-cd Newyear2026-Terminal-Party2026
-
-# Make executable
-chmod +x party2026.sh
-
-# Party time!
-./party2026.sh
 ```
 
----
+### Windows (WSL):
 
-### 🍎 macOS
+Note for Windows Developers: These scripts leverage native Linux tools and require a POSIX-compliant environment. While Windows doesn't natively support bash scripting with these dependencies, you can run them seamlessly using Windows Subsystem for Linux (WSL). This feature is officially supported on Windows 10 (version 2004 and higher) and Windows 11, providing a genuine Linux kernel running directly on Windows.
 
-```bash
-# Install Homebrew (if not installed)
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+*First, install WSL if you haven't:*
 
-# Install all dependencies
-brew install figlet toilet lolcat cowsay fortune boxes pv git
+ **Open PowerShell as Administrator**
 
-# Clone repository
-git clone https://github.com/VritraSecz/Newyear2026-Terminal-Party2026.git
+Run:-
 
-# Enter directory
-cd Newyear2026-Terminal-Party2026
-
-# Make executable
-chmod +x party2026.sh
-
-# Celebrate!
-./party2026.sh
-```
-
----
-
-### 🪟 Windows
-
-<details>
-<summary><b>WSL (Windows Subsystem for Linux) - Recommended</b></summary>
-
-**Step 1: Enable WSL**
-```powershell
-# Open PowerShell as Administrator
+```bash 
 wsl --install
 ```
 
-**Step 2: Restart computer**
+Resources to intall WSL:
 
-**Step 3: Open Ubuntu terminal**
+- [Install WSL Guide](https://learn.microsoft.com/en-us/windows/wsl/install)
+
+- [WSL Documentation](https://docs.microsoft.com/en-us/windows/wsl/)
+
+
+
+### Quick Install (One-Liner for WSL Ubuntu/Debian/kali/mint)
+
 ```bash
-# Update packages
-sudo apt update
-
-# Install dependencies
-sudo apt install -y figlet toilet lolcat cowsay fortune boxes pv git
-
-# Clone repository
-git clone https://github.com/VritraSecz/Newyear2026-Terminal-Party2026.git
-
-# Navigate
-cd Newyear2026-Terminal-Party2026
-
-# Make executable
-chmod +x party2026.sh
-
-# Run!
-./party2026.sh
+sudo apt update && sudo apt install -y figlet toilet lolcat cowsay fortune boxes pv cmatrix git && git clone https://github.com/Sitej6174/TerminalPartyNewYear2026.git && cd TerminalPartyNewYear2026 && chmod +x *.sh
+bash boom2026.sh
 ```
-</details>
 
-<details>
-<summary><b>Git Bash (Limited Support)</b></summary>
+---
 
-**Note:** Git Bash has limited support for ASCII art tools. WSL is strongly recommended.
+## 📁 File Descriptions
 
-1. Download [Git for Windows](https://git-scm.com/downloads)
-2. Install with default options
-3. Most dependencies won't be available
-4. Consider using WSL or Cygwin instead
-</details>
+| File | Description |
+|------|-------------|
+| **boom2026.sh** | Explosive celebration script with fireworks effects and countdown animations |
+| **celebration2026.sh** | General celebration script featuring colorful banners and party messages |
+| **newyear2026.sh** | New Year themed script with year-specific greetings and animations |
+| **party2026.sh** | Main party script with multiple animation styles and effects |
+| **terminal-party-2026.sh** | Comprehensive terminal party featuring all effects including matrix rain |
+| **requirements.txt** | List of all required dependencies for easy installation |
+| **LICENSE** | MIT License information |
+| **README.md** | Project documentation (this file) |
 
 ---
 
 ## 💻 Usage
 
-> *"Make it work, make it right, make it fast."* - Kent Beck
-
-### Basic Execution
+### Make Scripts Executable
 
 ```bash
-# Method 1: Direct execution
-./party2026.sh
-
-# Method 2: Using bash
-bash party2026.sh
+chmod +x *.sh
 ```
 
-### Test Individual Components
+### Run Individual Scripts
 
 ```bash
-# Test figlet
-figlet "Happy 2026"
+# Explosive fireworks celebration
+bash boom2026.sh
+```
+```bash
+# General celebration with animations
+bash celebration2026.sh
+```
+```bash
+# New Year 2026 themed party
+bash newyear2026.sh
+```
+```bash
+# Main party script
+bash party2026.sh
+```
+```bash
+# Complete terminal party with all effects
+bash terminal-party-2026.sh
+```
 
-# Test lolcat rainbow effect
-echo "Rainbow Text" | lolcat
+### Alternative Execution Methods
 
-# Test cowsay
-fortune | cowsay | lolcat
+```bash
+# Using ./ (after chmod +x)
+./party2026.sh
 
-# Test boxes
-echo "Celebration!" | boxes -d unicornsay
+# Direct bash execution
+bash party2026.sh
+
+# Using sh command
+sh party2026.sh
 ```
 
 ---
 
+## 📦 Requirements File
+
+Create a `requirements.txt` file for easy reference:
+
+```bash
+# Create requirements.txt
+cat > requirements.txt << 'EOF'
+figlet
+toilet
+lolcat
+cowsay
+fortune
+boxes
+pv
+cmatrix
+git
+bash
+EOF
+```
+
+### Install from Requirements (Manual)
+
+```bash
+# Read requirements and install (Ubuntu/Debian)
+while read package; do
+  sudo apt install -y "$package"
+done < requirements.txt
+```
+
+---
 ## 🎬 Demo
 
 ```
@@ -301,167 +253,157 @@ echo "Celebration!" | boxes -d unicornsay
 
 ## 🎨 Customization
 
-> *"Simplicity is the soul of efficiency."* - Austin Freeman
+### Modify Animation Speed
 
-### Modify Sleep Duration
 ```bash
-# Edit party2026.sh
-sleep 1  # Change to your preferred delay (in seconds)
+# Edit any script and adjust sleep duration
+sleep 1  # Change to 0.5 for faster, 2 for slower
 ```
 
 ### Change ASCII Fonts
-```bash
-# Available figlet fonts
-figlet -f banner "Text"
-figlet -f bubble "Text"
-figlet -f digital "Text"
-figlet -f script "Text"
 
-# List all available fonts
+```bash
+# List available fonts
 figlet -l
+
+# Use different font
+figlet -f banner "Your Text"
+figlet -f bubble "Your Text"
+figlet -f digital "Your Text"
 ```
 
-### Adjust Animation Speed
+### Adjust Rainbow Speed
+
 ```bash
-# Slower animation
+# Slower rainbow
 lolcat -a -d 30
 
-# Faster animation
+# Faster rainbow  
 lolcat -a -d 5
 ```
 
-### Add Custom Messages
+### Matrix Effect Customization
+
 ```bash
-# Add your own celebrations
-figlet -f slant "Your Message Here" | lolcat
-echo "Custom Text" | boxes -d stone | lolcat
+# Run cmatrix with custom colors
+cmatrix -b           # Bold characters
+cmatrix -C red       # Red matrix
+cmatrix -u 5         # Update delay
 ```
 
 ---
 
 ## 🐛 Troubleshooting
 
-<details>
-<summary><b>Command not found errors</b></summary>
-
-Verify all dependencies are installed:
+**Command not found:**
 ```bash
-which figlet toilet lolcat cowsay fortune boxes pv
+# Verify installation
+which figlet toilet lolcat cowsay fortune boxes pv cmatrix
+
+# Reinstall missing package
+sudo apt install -y [package-name]
 ```
 
-If any command is missing, reinstall that specific package.
-</details>
-
-<details>
-<summary><b>Permission denied error</b></summary>
-
-Make the script executable:
+**Permission denied:**
 ```bash
-chmod +x party2026.sh
+chmod +x *.sh
 ```
-</details>
 
-<details>
-<summary><b>Lolcat not working in Termux</b></summary>
+**No colors in terminal:**
+```bash
+export TERM=xterm-256color
+```
 
-Install Ruby and lolcat gem:
+**Lolcat not working (Termux):**
 ```bash
 pkg install ruby
 gem install lolcat
 ```
-</details>
-
-<details>
-<summary><b>Script runs but no colors</b></summary>
-
-Your terminal might not support 256 colors. Try:
-```bash
-export TERM=xterm-256color
-./party2026.sh
-```
-</details>
 
 ---
 
 ## 🤝 Contributing
 
-> *"The best way to predict the future is to implement it."* - David Heinemeier Hansson
+Contributions are welcome! 
 
-Contributions, issues, and feature requests are welcome!
-
-1. **Fork** the repository
-2. **Create** your feature branch
-   ```bash
-   git checkout -b feature/AmazingFeature
-   ```
-3. **Commit** your changes
-   ```bash
-   git commit -m 'Add some AmazingFeature'
-   ```
-4. **Push** to the branch
-   ```bash
-   git push origin feature/AmazingFeature
-   ```
-5. **Open** a Pull Request
+1. Fork the repository
+2. Create feature branch: `git checkout -b feature/AmazingFeature`
+3. Commit changes: `git commit -m 'Add AmazingFeature'`
+4. Push to branch: `git push origin feature/AmazingFeature`
+5. Open a Pull Request
 
 ---
 
 ## 📜 License
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
-```
-MIT License - Copyright (c) 2026 VritraSecz
-```
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
 ## 👨‍💻 Author
 
-**VritraSecz**
+**Sitej Maharana**
 
-- 🐙 GitHub: [@VritraSecz](https://github.com/VritraSecz)
-- 📧 Email: [Your Email]
-- 🌐 Website: [Your Website]
+- GitHub: [@Sitej6174](https://github.com/Sitej6174)
+- Repository: [TerminalPartyNewYear2026](https://github.com/Sitej6174/TerminalPartyNewYear2026)
 
 ---
 
 ## 💖 Support
 
-If you found this project helpful or entertaining, consider:
+If you find this project helpful:
 
-- ⭐ Starring the repository
-- 🐛 Reporting bugs and issues
-- 💡 Suggesting new features
-- 🔀 Forking and contributing
+- ⭐ Star the repository
+- 🐛 Report bugs via Issues
+- 💡 Suggest features
+- 🔀 Fork and contribute
+- 📢 Share with others
 
 ---
 
 ## 🎊 Happy New Year 2026!
-
 <div align="center">
 
 > *"Programs must be written for people to read, and only incidentally for machines to execute."* - Harold Abelson
 
-**Made with ❤️ by VritraSecz**
+
 
 ```
 ╔═══════════════════════════════════════════════════════════╗
 ║  "Eat, sleep, code, repeat in 2026!"                      ║
 ║  "Life is too short for bad code!"                        ║
 ║  "Write code that makes you proud."                       ║
-║                                                            ║
+║                                                           ║
 ║  Thanks for celebrating with us! 🎉                       ║
 ║  May 2026 bring you endless possibilities and clean code! ║
 ╚═══════════════════════════════════════════════════════════╝
 ```
-
 > *"The only way to learn a new programming language is by writing programs in it."* - Dennis Ritchie
 
 > *"Talk is cheap. Show me the code."* - Linus Torvalds
 
+**Made with ❤️ for the terminal community**
+
+---
+
+## 📝 Version History
+
+- **v1.0.0** - Initial release with 5 celebration scripts
+- Added cmatrix support for matrix effects
+- Cross-platform compatibility
+- Professional documentation
+
+---
+
+## 🌟 Acknowledgments
+
+- ASCII art tools: figlet, toilet
+- Color effects: lolcat
+- Matrix animations: cmatrix
+- Community contributors and testers
+
+---
+
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://forthebadge.com)
-
-</div>
